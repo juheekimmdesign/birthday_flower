@@ -1,0 +1,43 @@
+body {
+    background-color: #222;
+}
+#wrap {
+    background-color: #fff;
+    width: 440px; height: 956px;
+    margin: 0 auto;
+    background-image: url(../images/bg2.jpg);
+    background-size: 200% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 0 0 0; /* #warp + #title */
+}
+#wrap #title {
+    margin-bottom: 32px; /* #title + #result */
+}
+#wrap #title p {margin-bottom: 12px;}
+#wrap #title h1 {
+    font-family: 'MaruBuri-B', serif;
+    font-size: 1.75rem;
+}
+#wrap .result {margin-bottom: 32px; /* #result + button */}
+#wrap .result p {}
+#wrap .result .user_month {margin-bottom: 12px; font-size: 0.75rem; font-style: italic;}
+#wrap .result p:nth-child(2) {font-size: 1.25rem; line-height: 1.4;}
+#wrap .result p span {font-family: 'MaruBuri-B', serif;}
+#wrap .btn_group {}
+#wrap .btn_group #confirm_btn,
+#wrap .btn_group .return_btn {display: block; margin: 0 auto;}
+#wrap .btn_group #confirm_btn {
+    background-color: #444;
+    color: #fff;
+    border-radius: 28px;
+    width: 253px; line-height: 56px;
+    font-size: 1.13rem;
+    margin-bottom: 20px;
+}
+#wrap .btn_group #confirm_btn:hover {
+    background-color: #ffa601;
+}
+#wrap .btn_group .back {text-decoration: underline;}
+#wrap .btn_group .back:hover {color: red;}

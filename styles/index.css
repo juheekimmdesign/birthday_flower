@@ -11,8 +11,11 @@ body {background-color: #222;}
     text-align: center;
 }
 #wrap #title {margin-bottom: 32px;}
-#wrap #title p {margin-bottom: 0.75rem;}
-#wrap #title h1 {font-size: 1.75rem;}
+#wrap #title p {margin-bottom: 12px;}
+#wrap #title h1 {
+    font-family: 'MaruBuri-B', serif;
+    font-size: 1.75rem;
+}
 #wrap #title h1 span {}
 #wrap #birthday_frm {}
 #wrap #birthday_frm > * {
